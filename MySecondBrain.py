@@ -1,4 +1,15 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+# ------------ 分割线 ------------
+# 上面这三行必须在最前面！
+# 下面才是其他的 import
+
 import streamlit as st
+import os
+import chromadb
+# ... 后面的代码import streamlit as st
 import os
 import chromadb
 from chromadb.utils import embedding_functions
