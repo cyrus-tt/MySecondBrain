@@ -1,0 +1,8 @@
+streamlit
+openai
+chromadb==0.4.24
+pypdf
+beautifulsoup4
+requests
+sentence-transformers
+pysqlite3-binary
