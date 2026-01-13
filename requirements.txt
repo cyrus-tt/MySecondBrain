@@ -6,3 +6,4 @@ beautifulsoup4
 requests
 sentence-transformers
 pysqlite3-binary
+numpy<2.0.0
